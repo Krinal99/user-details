@@ -1,0 +1,20 @@
+
+  .header{
+      background: rgb(243, 241, 241);
+      height: 50px;  
+    }
+  .wrapper {
+    min-height: 100%;
+  /* background:yellow; */
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    /* margin-bottom: -50px; */
+  }
+  .push {
+    height: 50px;
+  }
+  /* .footer{background:pink} */
+
+div > div > span > button#pageDropDown {
+    display: none;
+}
